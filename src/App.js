@@ -11,6 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         {this.props.data[0].title}
+        tes
       </div>
     );
   }
