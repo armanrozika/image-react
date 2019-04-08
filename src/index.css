@@ -188,3 +188,41 @@ input:focus{
 	font-size: 13px;
 	color: #565454;
 }
+
+
+@media (max-width: 768px){
+	.App{
+		width: 90%;
+	}
+
+	.search{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 10px;
+	}
+
+	.search-input{
+		width: 100%;
+	}
+
+	.footer{
+		width: 95%;
+	}
+
+	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		font-size: 14px;
+	}
+	
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		font-size: 14px;
+	}
+	
+	::-ms-input-placeholder { /* Microsoft Edge */
+		font-size: 14px;
+	}
+
+	.search img{
+		height: 140px;
+	}
+	
+}
